@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <!-- bootstrap  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <style>
+        .navbar{
+            position: sticky;
+            top: 0px;
+        }
+        .col-4{
+            width: 300px;
+            height: 400px;
+            align-items: center;
+            background-color: rgba(0, 0, 0, 0.282);
+        }
+        .col-6{
+            width: 600px;
+            height: 600px;
+            align-items: center;
+        }
+        .button .btn{
+     position: absolute;
+     top: 560%;
+     left: 50%;
+     background-color: rgba(217, 183, 14, 0.87);
+     padding: 10px;
+     }
+     footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer h5 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+footer p {
+    font-size: 14px;
+    color: #b2b2b2;
+}
+
+footer a {
+    color: #b2b2b2;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ffffff;
+}
+
+footer .fab {
+    font-size: 20px;
+}
+        
+        
+
+
+    </style>
+</head>
+<body style="background-color: rgba(0, 0, 0, 0.94);">
+    <!-- navbar -->
+
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./IMAGE/atomberg-highres-white-logo (1)1.svg" alt="" width="200px" height="150px">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+
+                <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     FANS
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">CEILING FANS</a></li>
+                      <li><hr class="dropdown-divider" /></li>
+                      <li><a class="dropdown-item" href="#">EXHAUST FANS</a></li>
+                      <li><hr class="dropdown-divider" /></li>
+                      <li><a class="dropdown-item" href="#">PEDESTAL FANS</a></li>
+                      <li><hr class="dropdown-divider" /></li>
+                      <li><a class="dropdown-item" href="#">ACCESSORIES</a></li>
+                    </ul>
+                  </li> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <li class="nav-item">
+                <a class="nav-link active text-light" aria-current="page" href="#">MIXER GRINDERS</a>
+              </li>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">SMART LOCKS</a>
+              </li>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">REGISTER WARRANTY</a>
+              </li>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">SUPPORT</a>
+              </li>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">STORE LOCATOR</a>
+              </li>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <!-- NEXT NAV  -->
+                    
+                    
+                    
+                    <!-- Icon dropdown -->
+                    <li class="nav-item me-3 me-lg-0 dropdown">
+                        <a
+                          data-mdb-dropdown-init
+                          class="nav-link dropdown-toggle text-light "
+                          href="#"
+                          id="navbarDropdown"
+                          role="button"
+                          aria-expanded="false"
+                        >
+                        <i class="fa-solid fa-user"></i>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li>
+                            <a class="dropdown-item" href="#">LOGIN</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="#">Track Your Order</a>
+                          </li>
+                          <li><hr class="dropdown-divider" /></li>
+                          <li>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="nav-item me-3 me-lg-0">
+                        <a class="nav-link" href="#">
+                          <i class="fa-solid fa-magnifying-glass text-light"></i>
+                        </a>
+                      </li>
+                      <li class="nav-item me-3 me-lg-0 ">
+                      <a class="nav-link" href="#">
+                        <i class="fa-solid fa-cart-shopping text-light"></i>
+                      </a>
+                    </li>
+
+                  </ul>
+                </div>
+              </nav>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <section>
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./IMAGE/home1.webp" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./IMAGE/home2.webp" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./IMAGE/home3.webp" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./IMAGE/home4.webp" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+      </section>
+      
+      <!-- crousal2 -->
+       <section>
+        <h1 class="text-center text-warning">BESTSELLERS</h1>
+       <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+          <div class="carousel-item active me-3 my-5 ">
+            <div class="row d-flex justify-content-evenly m-1 ">
+                <div class="col-4 m-1">
+                    <img src="./IMAGE/fan2.webp" alt="" width="300px" height="300px">
+                    <h4 class="text-center text-light">Efficio Alpha Celing Fan</h4>
+                </div>
+                <div class="col-4  m-1">
+                    <img src="./IMAGE/fan3.webp" alt="" width="300px" height="300px">
+                    <h4 class="text-center text-light">Renesa Celing Fan</h4>
+                </div>
+                <div class="col-4  m-1">
+                    <img src="./IMAGE/fan1.webp" alt="" width="300px" height="300px">
+                    <h4 class="text-center text-light">Efficio Alpha Celing Fan</h4>
+                </div>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row d-flex justify-content-evenly m-1 ">
+                <div class="col-4   m-1">
+                    <img src="./IMAGE/fan4.webp" alt="" width="300px" height="300px">
+                    <h4 class="text-center text-light">Renesa Alpha Celing Fan</h4>
+                </div>
+                <div class="col-4   m-1">
+                    <img src="./IMAGE/fan5.webp" alt="" width="300px" height="300px">
+                    <h4 class="text-center text-light">Renesa +  Celing Fan</h4>
+                </div>
+                <div class="col-4  m-1">
+                    <img src="./IMAGE/fan1.webp" alt="" width="300px" height="300px"><h4 class="text-center text-light">Efficio Alpha Celing Fan</h4>
+                </div>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row d-flex justify-content-evenly  m-1">
+                <div class="col-4  m-1">
+                    <img src="./IMAGE/fan2.webp" alt="" width="300px" height="300px">
+                    <h4 class="text-center text-light">Efficio Alpha Celing Fan</h4>
+                </div>
+                <div class="col-4   m-1">
+                    <img src="./IMAGE/fan3.webp" alt="" width="300px" height="300px">
+                    <h4 class="text-center text-light">Renesa prime remote Fan</h4>
+                </div>
+                <div class="col-4  m-1">
+                    <img src="./IMAGE/fan1.webp" alt="" width="300px" height="300px">
+                    <h4 class="text-center text-light">Efficio Alpha Celing Fan</h4>
+                </div>
+              </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <section>
+        <h1 class="text-center text-warning">EXPLORE OUR TOP PRODUCTS</h1>
+        <div class="d-flex justify-content-evenly  ">
+        <div class="row">
+            <div class="col-6 m-5">
+                <button class="btn btn-outline-dark border border-warning"><h2 class="text-light">ARIS STARLIGHT</h2> </button>
+                <p class=" text-light"> <i class="text-warning"> Atomberg Aris Starlight</i> is a perfect amalgamation of superior aesthetics and performance. Its integrated ABS blade design ensures that the fan provides optimum air delivery without causing any noise making it one of the most silent fans in the category. The fan comes with our in-house developed Smart 2.0 technology that enables voice control using our Atomberg Home App/Alexa/Google Home/Atomberg Remote and allows you to operate your fan from anywhere.
+
+                    The fan also comes with an underlight having 3 color options, whose intensity can be varied according to your mood. Additionally, you can also track the performance and know your energy savings using our Atomberg Home App.
+                    
+                    With Atomberg Aris Starlight we not only want to uplift your room's decor but also uplift your mood and at the same time remain silent about it!</p>
+                    <img src="./IMAGE/nextexplore.webp" width="500px" height="140px" alt="">
+                    <div class="text-center"> <button class="btn btn-warning  border border-warning">Explore Now </button></div>
+            </div>
+        </div>
+        <div class="col-6 ">
+            <img src="./IMAGE/fanexplore.webp" alt="" width="600px" height="600px">
+        </div>
+    </div>
+    </section>
+    <br>
+    <section>
+        <h1 class="text-center text-warning">EXPLORE OUR TOP PRODUCTS</h1>
+        <div class="d-flex justify-content-evenly  ">
+        <div class="row">
+            <div class="col-6 m-5">
+                <button class="btn btn-outline-dark border border-warning"><h2 class="text-light">ATOMBERG ZENOVA</h2> </button>
+                <p class="fs-5 text-light">  Deliciousness begins with the right texture. Whether you want that zing of red chillies flakes or creamy yet coarse chutney with bits of crunchy and juicy coconut. The right texture can make food taste truly magical. But what’s the secret behind this magic? Well, it’s not a trick. It’s innovation. Presenting
+                <i class="text-warning">Atomberg Zenova Mixer Grinder with the all-new Coarse Mode™</i> . Coarse Mode™ carefully grinds ingredients to give perfect coarse textures (just like sil-batta) 
+                so that you can create dishes that have not just the right consistency and enhanced taste, but a touch of magic. Perfect Grinding. Magical Taste.</p>
+                    
+                    <div class="text-center"> <button class="btn btn-warning  border border-warning">Explore Now </button></div>
+            </div>
+        </div>
+        <div class="col-6  m-5">
+            <img src="./IMAGE/grinder.webp" alt="" width="600px" height="450px">
+        </div>
+    </div>
+    </section>
+
+    <section>
+        <h1 class="text-center text-warning">EXPLORE OUR TOP PRODUCTS</h1>
+        <div class="d-flex justify-content-evenly  ">
+        <div class="row">
+            <div class="col-6 m-5">
+                <button class="btn btn-outline-dark border border-warning"><h2 class="text-light">SMART LOCK</h2> </button>
+                <p class="fs-5 text-light"> Have you ever had that feeling of frustration when you forget to carry your house keys when you are going somewhere outside or try opening your house door while juggling household items in your hand?
+
+                Well not anymore.<i class="text-warning">Atomberg Smart Lock SL 1</i> With  you will not only have a seamless lock opening experience but don’t have to remember to carry your house keys anymore!
+                
+                SL 1 will take 360 degree care of your home security by providing enhanced safety with its 5 stainless steel bolt and also its "Made in India" App will ensure that all your user data remains safe and encrypted (all in India). Unlike a traditional lock, we have given SL 1 a premium glossy finish (with 2 color shades)
+                 that perfectly compliments your door and also equipped it with smart features that will ensure both safety and convenience. With Atomberg Smart Lock SL 1, bring home a key free lock and lead a carefree lifestyle!  </p>
+                    <div class="text-center"> <button class="btn btn-warning  border border-warning">Explore Now </button></div>
+            </div>
+        </div>
+        <div class="col-6 m-5">
+            <img src="./IMAGE/smartlock.webp" alt="" width="600px" height="600px">
+        </div>
+    </div>
+    </section>
+    <div class="button">
+        <img src="./IMAGE/gourmet.webp" alt="Snow" width="1470px" height="800px">
+        <button class="btn">Explore Now</button>
+      </div>
+   
+<!-- footer  -->
+
+ 
+<footer class="bg-dark text-white pt-4">
+   
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="./IMAGE/atomberg-highres-white-logo (1)1.svg" alt="" width="200px" height="150px">
+                <h5>About Atomberg</h5>
+                <p>Innovative and energy-efficient fans for modern homes.Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed doloribus facere a distinctio recusandae est corporis similique magni vitae tempore architecto atque, eveniet commodi reiciendi</p>
+            </div>
+            <div class="col-md-4">
+                <h5>Quick Links</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-white">Home</a></li>
+                    <li><a href="#" class="text-white">Products</a></li>
+                    <li><a href="#" class="text-white">Support</a></li>
+                    <li><a href="#" class="text-white">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias magnam, consequatur assumenda, asperiores, dolorum praesentium corporis accusantium doloremque perspiciatis repudiandae autem sit hic? Qui vitae tempora nam possimus eius sed.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed doloribus facere a distinctio recusandae est corporis similique magni vitae tempore architecto atque, eveniet commodi reiciendis quia perspiciatis rerum quasi velit!</p>
+            </div>
+        </div>
+        
+    </div>
+</footer>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+<footer class="bg-dark text-white text-center text-lg-start">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Footer Content</h5>
+  
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
+            molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae aliquam
+            voluptatem veniam, est atque cumque eum delectus sint!
+          </p>
+        </div>
+        <!--Grid column-->
+  
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Links</h5>
+  
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white">Link 1</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 2</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 3</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 4</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+  
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase mb-0">Links</h5>
+  
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!" class="text-white">Link 1</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 2</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 3</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 4</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="row mt-4">
+        <div class="col text-center">
+            <p>&copy; 2024 Atomberg Technologies. All rights reserved.</p>
+        </div>
+    </div>
+    <!-- Copyright -->
+  </footer>
+
+      
+</body>
+</html>
